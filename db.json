@@ -1,0 +1,1226 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "T-Shirt",
+      "price": 499,
+      "image": "/products/t-shirt.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "2",
+      "name": "Dress",
+      "price": 999,
+      "image": "/products/dress.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "3",
+      "name": "Watch",
+      "price": 1499,
+      "image": "/products/watch.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "4",
+      "name": "Handbag",
+      "price": 799,
+      "image": "/products/handbag.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "5",
+      "name": "Jeans",
+      "price": 1299,
+      "image": "/products/jeans.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "6",
+      "name": "Skirt",
+      "price": 699,
+      "image": "/products/skirt.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "7",
+      "name": "Shoes",
+      "price": 1999,
+      "image": "/products/shoe.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "8",
+      "name": "Sandals",
+      "price": 899,
+      "image": "/products/sandles.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "9",
+      "name": "Jacket",
+      "price": 2499,
+      "image": "/products/jacket.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "10",
+      "name": "Coat",
+      "price": 2999,
+      "image": "/products/coat.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "11",
+      "name": "Shirt",
+      "price": 799,
+      "image": "/products/shirt.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "12",
+      "name": "Blouse",
+      "price": 599,
+      "image": "/products/blouse.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "13",
+      "name": "Trousers",
+      "price": 1199,
+      "image": "/products/trousers.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "14",
+      "name": "Pants",
+      "price": 999,
+      "image": "/products/pants.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "15",
+      "name": "Belt",
+      "price": 399,
+      "image": "/products/belt.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "16",
+      "name": "Scarf",
+      "price": 299,
+      "image": "/products/scarf.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "17",
+      "name": "Cap",
+      "price": 499,
+      "image": "/products/cap.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "18",
+      "name": "Hat",
+      "price": 599,
+      "image": "/products/hat.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "19",
+      "name": "Socks",
+      "price": 199,
+      "image": "/products/socks.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "20",
+      "name": "Stockings",
+      "price": 299,
+      "image": "/products/stocking.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "21",
+      "name": "Backpack",
+      "price": 1999,
+      "image": "/products/backpack.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "22",
+      "name": "Suitcase",
+      "price": 2999,
+      "image": "/products/Suitcase.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "23",
+      "name": "LipStick",
+      "price": 99,
+      "image": "/products/lipstick.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "24",
+      "name": "Mascara",
+      "price": 45,
+      "image": "/products/mascara.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "25",
+      "name": "Eyeliner",
+      "price": 99,
+      "image": "/products/eyeliner.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "26",
+      "name": "Foundation",
+      "price": 299,
+      "image": "/products/foundation.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "27",
+      "name": "Blush",
+      "price": 200,
+      "image": "/products/blush.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "28",
+      "name": "Eyeshadow Palette",
+      "price": 199,
+      "image": "/products/EyeshadowPalette.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "29",
+      "name": "Makeup Brush Set",
+      "price": 299,
+      "image": "/products/MakeupBrushSet.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "30",
+      "name": "sherwani",
+      "price": 2999,
+      "image": "/products/sherwani.jpg",
+      "discount": "10"
+    }
+  ],
+  "men": [
+    {
+      "id": "1",
+      "name": "T-Shirt",
+      "price": 499,
+      "image": "/men/t-shirt.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "2",
+      "name": "Watch",
+      "price": 1499,
+      "image": "/men/watch.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "3",
+      "name": "Jeans",
+      "price": 1299,
+      "image": "/men/jeans.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "4",
+      "name": "Shoes",
+      "price": 1999,
+      "image": "/men/shoe.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "5",
+      "name": "Jacket",
+      "price": 2499,
+      "image": "/men/jacket.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "6",
+      "name": "Shirt",
+      "price": 799,
+      "image": "/men/shirt.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "7",
+      "name": "Trousers",
+      "price": 1199,
+      "image": "/men/trousers.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "8",
+      "name": "Belt",
+      "price": 399,
+      "image": "/men/belt.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "9",
+      "name": "Cap",
+      "price": 499,
+      "image": "/men/cap.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "10",
+      "name": "Socks",
+      "price": 199,
+      "image": "/men/socks.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "11",
+      "name": "Backpack",
+      "price": 1999,
+      "image": "/men/bagpack.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "12",
+      "name": "Wallet",
+      "price": 599,
+      "image": "/men/wallet.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "13",
+      "name": "Sunglasses",
+      "price": 799,
+      "image": "/men/sunglasses.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "14",
+      "name": "Tie",
+      "price": 299,
+      "image": "/men/tie.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "15",
+      "name": "Cufflinks",
+      "price": 499,
+      "image": "/men/cufflinks.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "16",
+      "name": "Suit",
+      "price": 4999,
+      "image": "/men/suit.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "17",
+      "name": "Blazer",
+      "price": 3999,
+      "image": "/men/blazer.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "18",
+      "name": "Sweater",
+      "price": 1299,
+      "image": "/men/sweater.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "19",
+      "name": "Hoodie",
+      "price": 1499,
+      "image": "/men/hoodie.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "20",
+      "name": "Polo Shirt",
+      "price": 699,
+      "image": "/men/shirt.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "21",
+      "name": "Shorts",
+      "price": 599,
+      "image": "/men/shorts.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "22",
+      "name": "Swim Trunks",
+      "price": 799,
+      "image": "/men/swimtrunks.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "23",
+      "name": "Underwear",
+      "price": 299,
+      "image": "/men/underwear.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "24",
+      "name": "Pyjamas",
+      "price": 999,
+      "image": "/men/pyjamas.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "25",
+      "name": "Slippers",
+      "price": 499,
+      "image": "/men/slippets.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "26",
+      "name": "Shaving Cream",
+      "price": 199,
+      "image": "/men/shavingcream.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "27",
+      "name": "Aftershave",
+      "price": 399,
+      "image": "/men/aftershave.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "28",
+      "name": "Cologne",
+      "price": 1499,
+      "image": "/men/cologne.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "29",
+      "name": "Hair Gel",
+      "price": 299,
+      "image": "/men/hairgel.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "30",
+      "name": "Deodorant",
+      "price": 199,
+      "image": "/men/deodorant.jpg",
+      "discount": "15"
+    }
+  ],
+  "women": [
+    {
+      "id": "1",
+      "name": "Dress",
+      "price": 999,
+      "image": "/women/dress.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "2",
+      "name": "Handbag",
+      "price": 799,
+      "image": "/women/handbag.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "3",
+      "name": "Skirt",
+      "price": 699,
+      "image": "/women/skirt.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "4",
+      "name": "Shoes",
+      "price": 1999,
+      "image": "/women/shoes.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "5",
+      "name": "Sandals",
+      "price": 899,
+      "image": "/women/sandle.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "6",
+      "name": "Jacket",
+      "price": 2499,
+      "image": "/women/jacket.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "7",
+      "name": "Coat",
+      "price": 2999,
+      "image": "/women/coat.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "8",
+      "name": "Blouse",
+      "price": 599,
+      "image": "/women/blouse.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "9",
+      "name": "Pants",
+      "price": 999,
+      "image": "/women/pants.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "10",
+      "name": "Belt",
+      "price": 399,
+      "image": "/women/belt.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "11",
+      "name": "Scarf",
+      "price": 299,
+      "image": "/women/scarf.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "12",
+      "name": "Hat",
+      "price": 599,
+      "image": "/women/hat.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "13",
+      "name": "Socks",
+      "price": 199,
+      "image": "/women/socks.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "14",
+      "name": "Stockings",
+      "price": 299,
+      "image": "/women/stockings.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "15",
+      "name": "Backpack",
+      "price": 1999,
+      "image": "/women/backpack.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "16",
+      "name": "Suitcase",
+      "price": 2999,
+      "image": "/women/suitcase.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "17",
+      "name": "Jewelry Set",
+      "price": 1499,
+      "image": "/women/jwellary.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "18",
+      "name": "Earrings",
+      "price": 799,
+      "image": "/women/earrings.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "19",
+      "name": "Necklace",
+      "price": 999,
+      "image": "/women/necklace.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "20",
+      "name": "Bracelet",
+      "price": 599,
+      "image": "/women/bracelet.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "21",
+      "name": "Ring",
+      "price": 399,
+      "image": "/women/ring.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "22",
+      "name": "Sunglasses",
+      "price": 799,
+      "image": "/women/sunglasses.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "23",
+      "name": "Hair Accessories",
+      "price": 299,
+      "image": "/women/hairaccessories.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "24",
+      "name": "Watch",
+      "price": 1499,
+      "image": "/women/watch.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "25",
+      "name": "Sweater",
+      "price": 1299,
+      "image": "/women/sweater.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "26",
+      "name": "Cardigan",
+      "price": 1599,
+      "image": "/women/cardigan.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "27",
+      "name": "Jumpsuit",
+      "price": 1999,
+      "image": "/women/jumpsuit.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "28",
+      "name": "Leggings",
+      "price": 599,
+      "image": "/women/leggings.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "29",
+      "name": "Tights",
+      "price": 399,
+      "image": "/women/tights.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "30",
+      "name": "Shapewear",
+      "price": 799,
+      "image": "/women/shapewear.jpg",
+      "discount": "5"
+    }
+  ],
+  "kids": [
+    {
+      "id": "1",
+      "name": "Teddy Bear",
+      "price": 299,
+      "image": "/kids/teddybear.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "2",
+      "name": "Sweatshirt",
+      "price": 499,
+      "image": "/kids/sweatshirt.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "3",
+      "name": "Waist Coat",
+      "price": 399,
+      "image": "/kids/waistcoat.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "4",
+      "name": "Toy Helicopter",
+      "price": 799,
+      "image": "/kids/remotecontrolhelicopter.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "6",
+      "name": "Watch",
+      "price": 399,
+      "image": "/kids/watch.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "28",
+      "name": "Stroller",
+      "price": 399,
+      "image": "/kids/stroller.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "7",
+      "name": "Puzzle",
+      "price": 299,
+      "image": "/kids/puzzle.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "8",
+      "name": "Art Set",
+      "price": 349,
+      "image": "/kids/artset.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "9",
+      "name": "Scooter",
+      "price": 499,
+      "image": "/kids/scooter.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "10",
+      "name": "Gown",
+      "price": 599,
+      "image": "/kids/gown.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "11",
+      "name": "Dress",
+      "price": 399,
+      "image": "/kids/dress.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "12",
+      "name": "Swing Set",
+      "price": 99,
+      "image": "/kids/swingset.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "13",
+      "name": "Sweater",
+      "price": 149,
+      "image": "/kids/sweater.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "14",
+      "name": "Track Pants",
+      "price": 199,
+      "image": "/kids/trackpants.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "15",
+      "name": "Jacket",
+      "price": 249,
+      "image": "/kids/jacket.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "16",
+      "name": "Salwar suit",
+      "price": 149,
+      "image": "/kids/salwarsuit.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "17",
+      "name": "South Indian Traditional",
+      "price": 199,
+      "image": "/kids/southindian.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "18",
+      "name": "Kids Rug",
+      "price": 999,
+      "image": "/kids/kidsrug.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "19",
+      "name": "Stroller",
+      "price": 299,
+      "image": "/kids/stroller.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "20",
+      "name": "Baby Powder",
+      "price": 149,
+      "image": "/kids/babypowder.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "26",
+      "name": "Shirt & Pant",
+      "price": 599,
+      "image": "/kids/shirtpant.jpg",
+      "discount": "15"
+    }
+  ],
+  "home": [
+    {
+      "id": "1",
+      "name": "Aroma Diffuser",
+      "price": 499,
+      "image": "/home/aromadiffuser.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "2",
+      "name": "Weighted Blanket",
+      "price": 999,
+      "image": "/home/weightedblanket.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "3",
+      "name": "Set of Coasters",
+      "price": 299,
+      "image": "/home/coasters.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "4",
+      "name": "Throw Blanket",
+      "price": 799,
+      "image": "/home/throwblanket.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "5",
+      "name": "Wall Shelf",
+      "price": 1299,
+      "image": "/home/wallshelf.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "6",
+      "name": "Decorative Bowl",
+      "price": 399,
+      "image": "/home/decorativebowl.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "7",
+      "name": "Indoor Planter",
+      "price": 599,
+      "image": "/home/indoorplanters.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "8",
+      "name": "Candle Holder Set",
+      "price": 249,
+      "image": "/home/candlestandset.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "9",
+      "name": "Picture Frame Collage",
+      "price": 899,
+      "image": "/home/pictureframecollage.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "10",
+      "name": "Wall Mirror",
+      "price": 1499,
+      "image": "/home/wallmirror.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "11",
+      "name": "Table Runner",
+      "price": 299,
+      "image": "/home/tablerunner.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "12",
+      "name": "Cushion Cover Set",
+      "price": 499,
+      "image": "/home/cushioncoverset.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "13",
+      "name": "Ottoman",
+      "price": 1999,
+      "image": "/home/ottoman.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "14",
+      "name": "Side Table",
+      "price": 799,
+      "image": "/home/sidetable.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "15",
+      "name": "Coffee Table",
+      "price": 2499,
+      "image": "/home/coffetable.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "16",
+      "name": "Area Rug",
+      "price": 3999,
+      "image": "/home/arearug.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "17",
+      "name": "Floor Lamp",
+      "price": 1299,
+      "image": "/home/floorlamp.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "18",
+      "name": "Table Lamp",
+      "price": 699,
+      "image": "/home/tablelamp.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "19",
+      "name": "Pendant Light",
+      "price": 999,
+      "image": "/home/pendantlight.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "20",
+      "name": "Pooja Mandir",
+      "price": 1999,
+      "image": "/home/poojamandir.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "21",
+      "name": "Lord Ganesh Fountain",
+      "price": 799,
+      "image": "/home/fountain.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "22",
+      "name": "Cutlery Set",
+      "price": 599,
+      "image": "/home/cutleryset.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "23",
+      "name": "Serving Tray",
+      "price": 1499,
+      "image": "/home/servingtray.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "24",
+      "name": "Kitchen Utensil Set",
+      "price": 999,
+      "image": "/home/kitchenutensilsset.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "25",
+      "name": "Show Case",
+      "price": 2999,
+      "image": "/home/showcase.jpg",
+      "discount": "5"
+    }
+  ],
+  "Beauty": [
+    {
+      "id": "1",
+      "name": "Eyeshadow Palette",
+      "price": 1299,
+      "image": "/beauty/eyeshadowpallete.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "2",
+      "name": "Foundation",
+      "price": 899,
+      "image": "/beauty/foundation.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "3",
+      "name": "Mascara",
+      "price": 499,
+      "image": "/beauty/mascara.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "4",
+      "name": "Lipstick",
+      "price": 399,
+      "image": "/beauty/lipstick.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "5",
+      "name": "Eyeliner",
+      "price": 299,
+      "image": "/beauty/eyeliner.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "6",
+      "name": "Blush",
+      "price": 599,
+      "image": "/beauty/blush.jpg",
+      "discount": "20"
+    },
+    {
+      "id": "7",
+      "name": "Highlighter",
+      "price": 799,
+      "image": "/beauty/highlightner.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "8",
+      "name": "Bronzer",
+      "price": 699,
+      "image": "/beauty/bronzer.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "9",
+      "name": "Concealer",
+      "price": 449,
+      "image": "/beauty/concealer.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "10",
+      "name": "Setting Spray",
+      "price": 999,
+      "image": "/beauty/settingspray.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "11",
+      "name": "Face Primer",
+      "price": 649,
+      "image": "/beauty/faceprimer.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "12",
+      "name": "Makeup Remover",
+      "price": 399,
+      "image": "/beauty/makeupremover.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "13",
+      "name": "Cleanser",
+      "price": 599,
+      "image": "/beauty/cleanser.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "14",
+      "name": "Toner",
+      "price": 499,
+      "image": "/beauty/toner.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "15",
+      "name": "Moisturizer",
+      "price": 799,
+      "image": "/beauty/moisturizer.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "16",
+      "name": "Serum",
+      "price": 1499,
+      "image": "/beauty/serum.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "17",
+      "name": "Face Mask",
+      "price": 299,
+      "image": "/beauty/facemask.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "18",
+      "name": "Exfoliator",
+      "price": 399,
+      "image": "/beauty/exfoliator.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "19",
+      "name": "Sunscreen",
+      "price": 699,
+      "image": "/beauty/sunscreen.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "20",
+      "name": "Eye Cream",
+      "price": 1299,
+      "image": "/beauty/eyecream.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "21",
+      "name": "Lip Balm",
+      "price": 199,
+      "image": "/beauty/lipbalm.jpg",
+      "discount": "10"
+    },
+    {
+      "id": "22",
+      "name": "Body Lotion",
+      "price": 599,
+      "image": "/beauty/bodylotion.jpg",
+      "discount": "5"
+    },
+    {
+      "id": "23",
+      "name": "Body Wash",
+      "price": 499,
+      "image": "/beauty/bodywash.jpg",
+      "discount": "15"
+    },
+    {
+      "id": "24",
+      "name": "Shampoo",
+      "price": 799,
+      "image": "/beauty/shampoo.jpg",
+      "discount": "10"
+    }
+  ],
+  "orders": [
+    {
+      "id": "68bb",
+      "n": "Rakesh",
+      "no": "9390XXXX24",
+      "pin": "50XXX3",
+      "hno": "1-2-3",
+      "c": "Siddipet",
+      "st": "ABcd nagar, VXyz colony",
+      "lm": "opposite LMNOP hosptial",
+      "products": [
+        {
+          "product": {
+            "id": "3",
+            "name": "Skirt",
+            "price": 699,
+            "image": "/women/skirt.jpg",
+            "discount": "20"
+          },
+          "UID": "69a552d5-93a9-4948-bd43-8185e9d59083",
+          "Quantity": 1
+        },
+        {
+          "product": {
+            "id": "1",
+            "name": "Dress",
+            "price": 999,
+            "image": "/women/dress.jpg",
+            "discount": "5"
+          },
+          "UID": "ebb91d1a-5074-4e5d-85ae-a87efe99da18",
+          "Quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ee39",
+      "n": "Nisha",
+      "no": "93789XXX34",
+      "pin": "502XX8",
+      "hno": "2-3-4",
+      "c": "gurgoan",
+      "st": "LMNOP street",
+      "lm": "opposite to ABCD statue",
+      "products": [
+        {
+          "product": {
+            "id": "1",
+            "name": "Dress",
+            "price": 999,
+            "image": "/women/dress.jpg",
+            "discount": "5"
+          },
+          "UID": "35960a9f-cba9-434d-90f5-5bdce82ed676",
+          "Quantity": 1
+        },
+        {
+          "product": {
+            "id": "15",
+            "name": "Backpack",
+            "price": 1999,
+            "image": "/women/backpack.jpg",
+            "discount": "5"
+          },
+          "UID": "56ff6499-e059-476a-a8b3-ace24d659f09",
+          "Quantity": 1
+        },
+        {
+          "product": {
+            "id": "18",
+            "name": "Earrings",
+            "price": 799,
+            "image": "/women/earrings.jpg",
+            "discount": "5"
+          },
+          "UID": "98699b83-bc44-4f71-b357-1fc2564c9c7f",
+          "Quantity": 1
+        },
+        {
+          "product": {
+            "id": "3",
+            "name": "Waist Coat",
+            "price": 399,
+            "image": "/kids/waistcoat.jpg",
+            "discount": "15"
+          },
+          "UID": "a825a5ee-8b0a-4af8-b414-a2661144f8a8",
+          "Quantity": 1
+        }
+      ]
+    }
+  ]
+}
