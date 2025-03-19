@@ -1,12 +1,13 @@
 import React from "react";
 import { FaInstagram, FaFacebookSquare, FaTwitter } from "react-icons/fa";
+import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-container">
+    <footer className={styles.footer}>
+      <div className={styles.footercontainer}>
         {/* About Section */}
-        <div className="footer-column">
+        <div className={styles.footercolumn}>
           <h3>About Myntra</h3>
           <ul>
             <li>
@@ -22,7 +23,7 @@ const Footer = () => {
         </div>
 
         {/* Customer Support */}
-        <div className="footer-column">
+        <div className={styles.footercolumn}>
           <h3>Customer Support</h3>
           <ul>
             <li>
@@ -38,9 +39,9 @@ const Footer = () => {
         </div>
 
         {/* Social Media */}
-        <div className="footer-column">
+        <div className={styles.footercolumn}>
           <h3>Follow Us</h3>
-          <div className="social-icons">
+          <div className={styles.socialicons}>
             <a href="#">
               <FaFacebookSquare className="inline" />
             </a>
@@ -54,9 +55,9 @@ const Footer = () => {
         </div>
 
         {/* Payment Options */}
-        <div className="footer-column">
+        <div className={styles.footercolumn}>
           <h3>Payment Options</h3>
-          <div className="payment-icons flex">
+          <div className={styles.paymenticons}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg"
               alt="Visa"
@@ -74,7 +75,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="footer-bottom">
+      <div className={styles.footerbottom}>
         &copy; {new Date().getFullYear()} Myntra Clone. All rights reserved.
       </div>
     </footer>
