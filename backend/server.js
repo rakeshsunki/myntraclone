@@ -4,10 +4,13 @@ const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 const cors = require("cors");
 
+// Enabled CORS
+server.use(cors());
 server.use(middlewares);
 server.use(router);
-app.use(cors());
-server.listen(4000, () => {
-  console.log("JSON Server is running on port 4000");
-});
 
+// Used Render-assigned PORT (Default: 4000 if running locally)
+const PORT = process.env.PORT || 4000;
+server.listen(PORT, () => {
+  console.log(`Myntra Clone JSON Server is running on port ${PORT}`);
+});
