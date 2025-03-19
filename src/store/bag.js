@@ -4,7 +4,7 @@ export const submitOrder = createAsyncThunk(
   "orders/submit",
   async (orderData) => {
     console.log("order Data", orderData)
-    const response = await fetch("http://localhost:5000/orders", {
+    const response = await fetch("https://myntraclone-json-server.onrender.com/orders", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(orderData),

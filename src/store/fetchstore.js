@@ -3,7 +3,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const serverProducts = createAsyncThunk(
   "products/fetch",
   async (category) => {
-    const response = await fetch(`http://localhost:5000/${category}`);
+    const response = await fetch(`https://myntraclone-json-server.onrender.com/${category}`);
     return response.json();
   }
 );
@@ -12,7 +12,7 @@ export const DeleteOrder = createAsyncThunk(
   "orders/delete",
   async (orderid) => {
     console.log("order Data", orderid)
-    await fetch(`http://localhost:5000/orders/${orderid}`, {
+    await fetch(`https://myntraclone-json-server.onrender.com/orders/${orderid}`, {
       method: "DELETE",
     });
 
