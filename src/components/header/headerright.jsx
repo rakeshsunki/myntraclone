@@ -27,7 +27,7 @@ const Headerright = () => {
       </div>
       <Link
         to={"/wishlist"}
-        className="h-full !justify-items-center !content-center text-sm !no-underline text-black font-[Franklin_Gothic_Medium,_Arial_Narrow,_Arial,_sans-serif]"
+        className="h-full !justify-items-center !content-center text-sm !no-underline font-bold text-black !font-[Franklin_Gothic_Medium,_Arial_Narrow,_Arial,_sans-serif]"
       >
         <CiHeart size={18} />
         <span>Wishlist</span>
@@ -35,7 +35,7 @@ const Headerright = () => {
       <Link
         to={"/bag"}
         onClick={() => dispatch(serverProducts("orders"))}
-        className="h-full !justify-items-center !content-center text-sm !no-underline text-black font-[Franklin_Gothic_Medium,_Arial_Narrow,_Arial,_sans-serif]"
+        className="h-full !justify-items-center !content-center text-sm !no-underline font-bold text-black !font-[Franklin_Gothic_Medium,_Arial_Narrow,_Arial,_sans-serif]"
       >
         <SlHandbag size={18} />
         <span>Bag</span>
