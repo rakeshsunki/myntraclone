@@ -11,7 +11,7 @@ const Headerright = () => {
     <div className="h-full !justify-evenly items-center w-1/2 hidden md:flex">
       <div className="w-1/2 h-[45%] flex justify-around items-center border !rounded-[2px]">
         <div>
-          <IoIosSearch size={20} className="inline" />
+          <IoIosSearch size={20} />
         </div>
         <input
           className="w-[80%] h-[90%] border-none"
@@ -19,25 +19,25 @@ const Headerright = () => {
         ></input>
       </div>
       <div
-        className="h-full justify-items-center content-center text-sm font-bold !font-['Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif] hover:border-b-4 hover:border-black"
+        className="h-full !justify-items-center !content-center text-sm font-bold !font-['Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif] hover:border-b-4 hover:border-black"
         onClick={() => alert("Feature will be Avaliable soon")}
       >
-        <IoPersonOutline size={18} className="inline" />
+        <IoPersonOutline size={18} />
         <span>Profile</span>
       </div>
       <Link
         to={"/wishlist"}
-        className="h-full justify-items-center content-center text-sm !no-underline text-black font-[Franklin_Gothic_Medium,_Arial_Narrow,_Arial,_sans-serif]"
+        className="h-full !justify-items-center !content-center text-sm !no-underline text-black font-[Franklin_Gothic_Medium,_Arial_Narrow,_Arial,_sans-serif]"
       >
-        <CiHeart size={18} className="inline" />
+        <CiHeart size={18} />
         <span>Wishlist</span>
       </Link>
       <Link
         to={"/bag"}
         onClick={() => dispatch(serverProducts("orders"))}
-        className="h-full justify-items-center content-center text-sm !no-underline text-black font-[Franklin_Gothic_Medium,_Arial_Narrow,_Arial,_sans-serif]"
+        className="h-full !justify-items-center !content-center text-sm !no-underline text-black font-[Franklin_Gothic_Medium,_Arial_Narrow,_Arial,_sans-serif]"
       >
-        <SlHandbag size={18} className="inline" />
+        <SlHandbag size={18} />
         <span>Bag</span>
       </Link>
     </div>
