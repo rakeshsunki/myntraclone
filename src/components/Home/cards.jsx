@@ -26,14 +26,14 @@ const Cards = ({ product }) => {
   return (
     <>
       <span
-        className={`fixed top-[15%] right-[5%] !rounded-[10px] border bg-orange-200 w-[100px] z-40 h-[50px] md:w-[300px] md:h-[100px] flex items-center justify-center text-sm transition-opacity duration-500 ${
+        className={`fixed top-[15%] right-[5%] !rounded-[10px] border bg-orange-200 w-[250px] z-40 h-[50px] md:w-[300px] md:h-[100px] flex items-center justify-center text-sm transition-opacity duration-500 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
         Added To Wishlist, Check Wishlist <FaRegHeart className="inline" />
       </span>
       <span
-        className={`fixed top-[15%] right-[5%] !rounded-[10px] border bg-orange-200 w-[100px] z-40 h-[50px] md:w-[300px] md:h-[100px] flex items-center justify-center text-sm transition-opacity duration-500 ${
+        className={`fixed top-[15%] right-[5%] !rounded-[10px] border bg-orange-200 w-[250px] z-40 h-[50px] md:w-[300px] md:h-[100px] flex items-center justify-center text-sm transition-opacity duration-500 ${
           BagNotification ? "opacity-100" : "opacity-0"
         }`}
       >

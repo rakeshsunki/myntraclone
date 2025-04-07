@@ -66,10 +66,7 @@ const Footer = () => {
               src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
               alt="PayPal"
             />
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/5/57/MasterCard_Logo.svg"
-              alt="MasterCard"
-            />
+            <img src="../MasterCard.svg" alt="MasterCard" />
           </div>
         </div>
       </div>
