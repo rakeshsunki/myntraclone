@@ -3,6 +3,7 @@ import { CiHeart } from "react-icons/ci";
 import { SlHandbag } from "react-icons/sl";
 import { Link } from "react-router-dom";
 import { RxCross2 } from "react-icons/rx";
+import { FaCameraRetro } from "react-icons/fa";
 const Sidebar = ({ isOpen, setIsOpen }) => {
   return (
     <>
@@ -18,24 +19,34 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         {/* Sidebar Content */}
         <div className="flex flex-col items-center gap-6 py-6">
           {/* Profile */}
-          <div className="flex flex-col items-center text-sm font-bold hover:border-b-4 hover:border-black cursor-pointer">
+          <div
+            className="flex flex-col items-center text-sm font-bold hover:border-b-4 hover:border-black cursor-pointer"
+            onClick={() => setIsOpen(false)}
+          >
             <IoPersonOutline size={24} />
             <span>Profile</span>
           </div>
-
+          <div
+            className="flex flex-col items-center text-sm font-bold hover:border-b-4 hover:border-black cursor-pointer"
+            onClick={() => setIsOpen(false)}
+          >
+            <FaCameraRetro size={24} />
+            <span>Studio</span>
+          </div>
           {/* Wishlist */}
           <Link
             to={"/wishlist"}
-            className="flex flex-col items-center text-sm text-black font-bold hover:border-b-4 hover:border-black"
+            className="flex flex-col items-center text-sm text-black font-bold hover:border-b-4 hover:border-black !no-underline"
+            onClick={() => setIsOpen(false)}
           >
             <CiHeart size={24} />
             <span>Wishlist</span>
           </Link>
 
-          {/* Bag */}
           <Link
             to={"/bag"}
-            className="flex flex-col items-center text-sm text-black font-bold hover:border-b-4 hover:border-black"
+            className="flex flex-col items-center text-sm text-black font-bold hover:border-b-4 hover:border-black !no-underline"
+            onClick={() => setIsOpen(false)}
           >
             <SlHandbag size={24} />
             <span>Bag</span>

@@ -1,68 +1,88 @@
 import { useDispatch } from "react-redux";
 import { bagActions, wishlistActions } from "../../store/mainStore";
 import { FaIndianRupeeSign } from "react-icons/fa6";
+import { BsHeart, BsHandbag } from "react-icons/bs";
 
 const WishCard = ({ item }) => {
   const dispatch = useDispatch();
+
+  // Calculate final price after discount
+  const finalPrice =
+    item.product.price - (item.product.discount * item.product.price) / 100;
+
   return (
-    <div className="w-fit h-fit m-4 p-8 text-sm md:justify-around md:flex shadow-[10px_10px_10px_gray] !bg-[rgb(191,169,243)]">
-      <div className="h-fit w-full md:h-[300px] md:w-[200px] justify-items-center p-4 shadow-[10px_10px_10px_gray] bg-white">
-        <img src={item.product.image} className="h-[90%]" />
-        <h5>{item.product.name}</h5>
+    <div className="bg-white !rounded-lg !shadow-sm overflow-hidden border border-gray-200 w-full! !sm:w-[calc(50%-1rem)] !md:w-[calc(33.33%-1rem)] !lg:w-[calc(25%-1rem)] flex flex-col hover:!shadow-md">
+      {/* Product Image */}
+      <div className="relative p-4 bg-gray-50">
+        <img
+          src={item.product.image}
+          alt={item.product.name}
+          className="w-full h-48 object-contain"
+        />
+        <button
+          onClick={() =>
+            dispatch(wishlistActions.REMOVE_FROM_WISHLIST(item.UID))
+          }
+          className="absolute top-2 right-2 p-2 bg-white rounded-full! shadow-sm hover:bg-red-50"
+          aria-label="Remove from wishlist"
+        >
+          <BsHeart className="text-red-500" />
+        </button>
       </div>
-      <div className="h-fit w-fit m-4 justify-start items-center">
-        <ul className="list-none">
-          <li>
-            <pre>
-              <b>Product Name :</b>
-              {item.product.name}
-            </pre>
-          </li>
-          <li>
-            <pre>
-              <b>product Price :</b>
-              <FaIndianRupeeSign className="inline" />
-              {item.product.price}
-            </pre>
-          </li>
-          <li>
-            <pre>
-              <b>Discount Offered :</b>
-              {item.product.discount} %
-            </pre>
-          </li>
-          <li>
-            <pre>
-              <b>Final Amount :</b>
-              <FaIndianRupeeSign className="inline" />
-              {item.product.price -
-                (item.product.discount * item.product.price) / 100}
-            </pre>
-          </li>
-        </ul>
-        <div className="h-[20%] text-[0.65rem] md:text-sm ">
+
+      {/* Product Info */}
+      <div className="p-4 flex-grow">
+        <h3 className="font-medium text-gray-800 mb-2 line-clamp-2 h-12">
+          {item.product.name}
+        </h3>
+
+        <div className="flex items-center mb-2">
+          <span className="text-lg font-semibold flex items-center">
+            <FaIndianRupeeSign className="text-sm mr-0.5" />
+            {finalPrice.toFixed(0)}
+          </span>
+
+          {item.product.discount > 0 && (
+            <>
+              <span className="text-sm text-gray-500 line-through ml-2 flex items-center">
+                <FaIndianRupeeSign className="text-xs mr-0.5" />
+                {item.product.price}
+              </span>
+              <span className="ml-2 text-sm text-green-600">
+                {item.product.discount}% OFF
+              </span>
+            </>
+          )}
+        </div>
+      </div>
+
+      {/* Action Buttons */}
+      <div className="px-4 pb-4 mt-auto">
+        <div className="grid grid-cols-2 gap-2">
           <button
             type="button"
-            className="btn btn-danger !text-[0.6rem] "
-            onClick={() => {
-              dispatch(wishlistActions.REMOVE_FROM_WISHLIST(item.UID));
-            }}
+            className="py-2 px-3 border border-gray-300 text-gray-700 rounded-md! hover:bg-gray-50 font-medium text-sm flex items-center justify-center"
+            onClick={() =>
+              dispatch(wishlistActions.REMOVE_FROM_WISHLIST(item.UID))
+            }
           >
-            Remove From Wishlist
+            <BsHeart className="mr-1" /> Remove
           </button>
+
           <button
             type="button"
-            className="btn btn-success !ml-2 !text-[0.6rem]"
+            className="py-2 px-3 bg-purple-600 text-white rounded-md! hover:bg-purple-700 font-medium text-sm flex items-center justify-center"
             onClick={() => {
               dispatch(bagActions.ADD_TO_BAG(item));
               dispatch(wishlistActions.REMOVE_FROM_WISHLIST(item.UID));
             }}
           >
-            Add To Bag
+            <BsHandbag className="mr-1" /> Add to Bag
           </button>
         </div>
       </div>
     </div>
   );
 };
+
 export default WishCard;
