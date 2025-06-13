@@ -1,6 +1,7 @@
 const Loader = () => {
   return (
     <center>
+      <h2>The Deployed Server is slow initially Please Wait</h2>
       <div className="spinner-grow text-primary" role="status">
         <span className="sr-only">Loading...</span>
       </div>
